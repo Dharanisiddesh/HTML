@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Form 2</title>
+
+        <style>
+            label{
+                font-style: normal;
+                
+            }
+            #one:hover {
+                background-color: brown;
+
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="userMessage.html">
+            <fieldset style="background-color: coral; width: 50%; height: 250px; font-style: inherit; ;">
+
+                <legend style="font-size: x-large; text-align: center;"><b>Personal Details</b></legend>
+                <br>
+                
+
+                <label for="fname"><b>First Name</b></label>
+
+                
+                <input type="text" id="fname" name="fname">
+                <br><br>
+
+                <label for="mname">Middle Name</label>
+
+                
+                <input type="text" id="mname" name="mname">
+                <br><br>
+
+                <label for="lname">Last Name</label>
+
+                
+                <input type="text" id="lname" name="lname">
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" name="dob">
+                
+                
+
+            </fieldset>
+            <br>
+
+            <fieldset style="background-color: coral; width: 50%; height: 350px">
+
+                <legend style="text-align: center; font-size: x-large; "><b>Education Details</b></legend>
+
+                <label for="depatment">Department</label>
+                <br><br>
+
+                <input type="radio" id="cs" name="dept">
+                <label for="cs">CS</label>
+
+                <input type="radio" id="ec" name="dept">
+                <label for="ec">EC</label>
+
+                <input type="radio" id="civil" name="dept">
+                <label for="civil">CIVIL</label>
+                <br><br>
+
+                <label for="yogg">Yog</label>
+                <input list="yog" id="yogg" name="yog">
+
+                <datalist id="yog">
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                </datalist>
+                <br><br>
+                <label for="skills">Skills</label>
+                <br><br>
+
+                <input type="radio" id="Java" name="skill">
+                <label for="Java">Java</label> 
+                <br><br>   
+                
+                <input type="radio" id="MySQL" name="skill">
+                <label for="MySQL">MySQL</label>  
+                <br><br>   
+
+                <input type="radio" id="HTML" name="skill">
+                <label for="HTML">HTML</label>  
+                <br><br>    
+
+                <input type="radio" id="Data Structures" name="skill">
+                <label for="Data Structures">Data Structures</label> 
+                <br><br>     
+
+            </fieldset>
+            <br><br>
+
+            <input type="submit" id="one">
+           
+        </form>
+        
+    </body>
+</html>
